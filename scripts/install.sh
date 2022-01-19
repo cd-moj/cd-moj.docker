@@ -14,7 +14,7 @@ mkdir moj/submissions
 mkdir moj/contests
 mkdir tmp
 cd ..
-cp -r examples/docker-contest cd-moj/moj/contests/
+cp -r examples/* cd-moj/moj/contests/
 
 echo "Substituindo arquivos"
 cp config/apache2.conf /etc/apache2/
