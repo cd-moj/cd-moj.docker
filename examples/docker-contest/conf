@@ -1,5 +1,0 @@
-CONTEST_ID="docker_contest"
-CONTEST_NAME="Docker Contest"
-CONTEST_START=1642060800
-CONTEST_END=1643443200
-PROBS=(spoj-br PLACAR "Quem vai ser reprovado?" A reprovado.txt)

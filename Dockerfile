@@ -11,7 +11,6 @@ RUN apt-get -y update && \
     apt-get -y install curl
 
 COPY ./scripts/install.sh .
-COPY ./scripts/directory.sh ./scripts/
 COPY ./config ./config/
 COPY ./examples ./examples/
 

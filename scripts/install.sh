@@ -13,6 +13,8 @@ mkdir moj
 mkdir moj/submissions
 mkdir moj/contests
 mkdir tmp
+chmod o+w moj/submissions
+chmod o+w tmp
 cd ..
 cp -r examples/* cd-moj/moj/contests/
 
@@ -41,3 +43,8 @@ echo "ServerName localhost" >> /etc/apache2/apache2.conf
 
 echo "Iniciando apache2"
 service apache2 start
+
+echo "Iniciando daemons"
+#ls 
+#bash cd-moj/moj-serverside/daemons/executar-corretor.sh
+#bash cd-moj/moj-serverside/daemons/executar-julgador.sh

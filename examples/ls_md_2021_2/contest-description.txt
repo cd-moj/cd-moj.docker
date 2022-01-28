@@ -1,11 +1,10 @@
-teste
-"Prova de Teste do Sistema"
-1372801500
-1373492700
-3
+ls_md_2021_2
+"Rei Lacoste"
+1635609600
+1638288000
+2
 spoj-br PLACAR "Quem vai ser reprovado?" A reprovado.txt
 cdmoj cartasfora "Jogando Cartas Fora" B jogando-cartas-fora.pdf
-spoj-www TEST "Life, the Universe, and Everything" C site
 5
 ribas.admin:senhasecretaADMIN:Bruno Ribas Aministrador
 ribas:fiesta:Buno Ribas
