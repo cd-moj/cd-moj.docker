@@ -1,5 +1,5 @@
-CONTEST_ID=""
-CONTEST_NAME=""
-CONTEST_START=
-CONTEST_END=
-PROBS=()
+CONTEST_ID="admin"
+CONTEST_NAME="admin"
+CONTEST_START=1627815600
+CONTEST_END=1911812400
+PROBS=( spoj-br PLACAR "Quem vai ser reprovado?" A reprovado.txt cdmoj cartasfora "Jogando Cartas Fora" B jogando-cartas-fora.pdf)
