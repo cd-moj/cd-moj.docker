@@ -7,6 +7,9 @@ echo "Criando pastas"
 cd cdmoj-dev
 chmod a+rwx cdmoj-dev
 mkdir cdmoj
+mkdir $HOME/log
+mkdir $HOME/problems
+cp -r problems/* $HOME/problems/
 cd cdmoj
 mkdir moj
 mkdir moj/submissions
@@ -19,6 +22,7 @@ cp -r examples/* cdmoj/moj/contests/
 
 echo "Clonando repositorio do cdmoj"
 cd cdmoj-dev
+git clone https://github.com/cd-moj/mojaj.git
 git clone https://github.com/cd-moj/cdmoj.git cd-moj
 cd cd-moj
 [chmod +x install.sh]
