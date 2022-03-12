@@ -17,6 +17,7 @@ COPY ./scripts/install.sh .
 COPY ./config ./config/
 COPY ./examples ./examples/
 COPY ./problems ./problems/
+COPY ./mojtools ./mojtools/
 
 EXPOSE 80
 
