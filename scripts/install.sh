@@ -23,7 +23,9 @@ cp -r examples/* cdmoj/moj/contests/
 echo "Clonando repositorio do cdmoj"
 cd cdmoj-dev
 git clone https://github.com/cd-moj/mojaj.git
-git clone https://github.com/cd-moj/cdmoj.git cd-moj
+git clone --branch tcc-login https://github.com/lucianosz7/cdmoj.git cd-moj
+git pull origin
+#git clone https://github.com/lucianosz7/cdmoj.git cd-moj
 cd cd-moj
 [chmod +x install.sh]
 bash install.sh /cdmoj-dev/cdmoj/moj-serverside  /cdmoj-dev/cdmoj/moj-pagina 
