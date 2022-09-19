@@ -17,9 +17,10 @@ RUN apt-get -y update && \
 
 RUN apt clean
 
-COPY ./scripts/install.sh .
+COPY ./scripts/* .
 COPY ./config ./config/
 COPY ./examples ./examples/
 
 RUN bash ./install.sh
 RUN a2enmod cgid
+ENTRYPOINT service apache2 restart && bash
